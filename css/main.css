@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+:root {
+    --red: #ff4f5b;
+    --white: #fff;
+}
+
+@keyframes infinite-rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes infinite-rotate-opacity {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(360deg);
+    }
+}
+@keyframes infinite-poppin {
+    to {
+        transform: translateY(20px);
+    }
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.16, 0.8, 0.62, 1.52);
+    text-transform: capitalize;
+}
+
+/* boi den chu */
+*::selection {
+    background: var(--red);
+    color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+/* Chỉnh thanh scroll */
+html::-webkit-scrollbar {
+    width: 1.3rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: #000;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--red);
+}
+
+body {
+    background: #f9f9f9;
+}
+
+/* Block */
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block--center {
+    align-items: center;
+}
+
+.block__caption {
+    position: relative;
+    text-transform: capitalize;
+    margin-left: 20px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.block__caption.line-left:before,
+.block__caption.line-right:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    height: 1px;
+    width: 15px;
+    transform: translateY(-50%);
+    background-color: #ff4f5b;
+}
+
+.block__caption.line-left:before {
+    left: -20px;
+}
+
+.block__caption.line-right:after {
+    right: -20px;
+}
+
+.block__heading {
+    font-size: 3.2rem;
+    text-transform: uppercase;
+}
+
+.block__heading span {
+    text-transform: uppercase;
+    color: var(--red);
+}
+
+/* Section */
+section {
+    min-height: 50vh;
+    padding: 0 7%;
+    padding-top: 9rem;
+}
+
+/* button */
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 99px 99px 99px 12px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    min-width: 135px;
+    height: 44.5px;
+    color: #fff;
+    background-color: var(--red);
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: #ffbb3a;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 99px;
+}
+
+/* Footer */
+.footer {
+    min-height: auto;
+    padding-top: 0;
+    background: #333;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer__wrapper {
+    flex: 1 1 25rem;
+    margin: 2rem;
+}
+
+.footer__wrapper h3 {
+    font-size: 2.5rem;
+    color: #fff;
+    padding-bottom: 2rem;
+    font-weight: normal;
+}
+
+.footer__wrapper p {
+    font-size: 1.5rem;
+    color: #ccc;
+    padding: 1rem 0;
+}
+
+.footer__wrapper p i {
+    padding-right: 1rem;
+    color: var(--red);
+}
+
+.footer__wrapper a {
+    font-size: 1.5rem;
+    color: #ccc;
+    padding: 1rem 0;
+    display: block;
+}
+
+.footer__wrapper a:hover {
+    color: var(--red);
+}
+
+.footer__wrapper .share {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.footer__wrapper .share a {
+    height: 4rem;
+    width: 4rem;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 5rem;
+    border: 0.1rem solid #fff3;
+    margin-right: 1rem;
+}
+
+.footer__wrapper .share a:hover {
+    background: #fff;
+}
+
+.footer__credit {
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    font-size: 2rem;
+    border-top: 0.1rem solid #fff3;
+}
+
+.footer__credit a {
+    color: var(--red);
+}
