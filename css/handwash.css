@@ -1,0 +1,42 @@
+.handwash__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.handwash__step {
+    background: #fff;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+    margin-top: 3rem;
+    padding: 2rem 3.5rem;
+    text-align: center;
+    position: relative;
+    min-width: 371px;
+}
+
+.handwash__img {
+    height: 17rem;
+    width: 17rem;
+}
+
+.handwash__desc {
+    font-size: 2rem;
+    color: #666;
+    padding: 0 1rem;
+}
+
+.handwash__num {
+    display: block;
+    position: absolute;
+    top: -2rem;
+    left: -2rem;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--red);
+    border-radius: 5rem;
+}
