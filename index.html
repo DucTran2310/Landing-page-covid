@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css -->
+    <!-- <link rel="stylesheet" href="base.css"> -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/case.css">
+    <link rel="stylesheet" href="./css/symptoms.css">
+    <link rel="stylesheet" href="./css/protect.css">
+    <link rel="stylesheet" href="./css/handwash.css">
+    <link rel="stylesheet" href="./css/doctor.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <title>Covid-Landing-page</title>
+</head>
+<body>
+    
+    <!-- header section start -->
+        <header>
+            <a href="#" class="logo">C<span class="fas fa-virus logo-icon"></span>vid-19</a>
+            <div class="nav-toggle" id="navToggle">
+                <div id="menu" class="fas fa-bars nav-mobile "></div>
+                <!-- <div id="menu" class="fas fa-times nav-mobile hidden"></div> -->
+            </div>    
+
+            <nav class="navbar">
+                <ul id="navbar__wrapper">
+                    <li><a class="navbar__item active" href="#home">home</a></li>
+                    <li><a class="navbar__item" href="#protect">protect</a></li>
+                    <li><a class="navbar__item" href="#symptoms">symtoms</a></li>
+                    <li><a class="navbar__item" href="#prevent">prevent</a></li>
+                    <li><a class="navbar__item" href="#handwash">handwash</a></li>
+                    <li><a class="navbar__item" href="#spread">spread</a></li>
+                </ul>
+            </nav>
+        </header>
+    <!-- header section end -->
+
+    <!-- home section starts -->
+        <section class="home" id="home">
+            <div class="content">
+                <span class="content__title animate-hero">Covid-19</span>
+                <h3 class="content__slogan animate-hero">stay safe, stay home</h3>
+                <p class="content__des animate-hero">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. 
+                    Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.</p>
+                <a href="#" class="btn animate-hero">protect now</a>
+            </div>
+
+            <div class="image">
+                <img src="./images/home-img.png" alt="Covid-19" class="img__home">
+            </div>
+        </section>
+    <!-- home section end -->
+
+    <!-- Case start -->
+        <section class="case container">
+            <div class="block block--center">
+                <span class="block__caption line-left line-right">Total cases</span>
+                <h2 class="block__heading">Covid-19 outbreak</h2>
+                <p class="block__desc"></p>
+            </div>
+        
+                <div class="case__items">
+                <div class="case__item">
+                    <span class="case__qnt" data-target="221">0</span>
+                    <p class="case__desc">Total country</p>
+                    <img src="./images/case-icon.svg" alt="Virus" />
+                </div>
+                <div class="case__item">
+                    <span class="case__qnt" data-target="226672138">0</span>
+                    <p class="case__desc">Confirmed cases</p>
+                    <img src="./images/case-icon.svg" alt="Virus" />
+                </div>
+                <div class="case__item">
+                    <span class="case__qnt" data-target="4663045">0</span>
+                    <p class="case__desc">Deaths</p>
+                    <img src="./images/case-icon.svg" alt="Virus" />
+                </div>
+                <div class="case__item">
+                    <span class="case__qnt" data-target="203373594">0</span>
+                    <p class="case__desc">Recovered</p>
+                    <img src="./images/case-icon.svg" alt="Virus" />
+                </div>
+            </div>
+        
+                <!-- <img src="images/case-background.png" class="case__background" /> -->
+        </section>
+    <!-- Case end -->
+
+    <!-- Symptoms section starts --> 
+        <section class="symptoms" id="symptoms">
+            
+
+            <div class="symptoms__column">
+                <div class="symptoms__left">
+                    <div class="block block--mobile">
+                        <span class="block__caption line-left">Symptoms</span>
+                        <h2 class="block__heading">Covid-19 Symptoms</h2>
+                        <p class="block__desc">
+                            COVID-19 affects different people in different ways. Most
+                            infected people will develop mild to moderate illness and
+                            recover without hospitalization.
+                        </p>
+                    </div>
+                    <div class="symptoms__img--main">
+                        <img src="./images/symptoms-img.png" alt="symptoms" class="symptoms__img1">
+                        <div class="symptom__virus--wrapper">
+                            <img src="./images/symptom-virus.png" alt="Virus" class="symptoms__virus">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="symptoms__container">
+                    <div class="symptoms__box">
+                        <img src="./images/symp-1.png" alt="symptoms" class="symptoms__img">
+                        <h3 class="symptoms__desc">dry cough</h3>
+                    </div>
+                    <div class="symptoms__box">
+                        <img src="./images/symp-2.png" alt="symptoms" class="symptoms__img">
+                        <h3 class="symptoms__desc">sore throat</h3>
+                    </div>
+                    <div class="symptoms__box">
+                        <img src="./images/symp-3.png" alt="symptoms" class="symptoms__img">
+                        <h3 class="symptoms__desc">cold</h3>
+                    </div>
+                    <div class="symptoms__box">
+                        <img src="./images/symp-4.png" alt="symptoms" class="symptoms__img">
+                        <h3 class="symptoms__desc">fever</h3>
+                    </div>
+                    <div class="symptoms__box">
+                        <img src="./images/symp-5.png" alt="symptoms" class="symptoms__img">
+                        <h3 class="symptoms__desc">headache</h3>
+                    </div>
+                    <div class="symptoms__box">
+                        <img src="./images/symp-6.png" alt="symptoms" class="symptoms__img">
+                        <h3 class="symptoms__desc">vomiting</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Symtoms section ends -->
+
+    <!-- Protect Section starts -->
+        <section class="protect" id="protect">
+                <div class="block block--center">
+                    <span class="block__caption line-left line-right">Protection</span>
+                    <h1 class="block__heading">Take steps to <span>protect</span> yourself</h1>
+                </div>
+                <!-- <h1 class="protect__heading">Take steps to <span>protect</span> yourself</h1> -->
+                <div class="protect__container">
+                    <div class="protect__wrapper">
+                        <img src="./images/protect-1.png" alt="Protect yourself" class="protect__img">
+                        <h3 class="protect__tittle">Wear A Face Mask</h3>
+                        <p class="protect__desc">Face coverings can help reduce the spread of COVID-19. They stop droplets spreading when someone speaks, laughs, coughs or sneezes.</p>
+                    </div>
+                    <div class="protect__wrapper">
+                        <img src="./images/protect-2.png" alt="Protect yourself" class="protect__img">
+                        <h3 class="protect__tittle">Clean Your Hands</h3>
+                        <p class="protect__desc">Washing your hands is one of the easiest ways to keep yourself safe. Wash often with soap for 20 seconds. Then dry. This kills the virus by bursting its protective bubble.</p>
+                    </div>
+                    <div class="protect__wrapper">
+                        <img src="./images/protect-3.png" alt="Protect yourself" class="protect__img">
+                        <h3 class="protect__tittle">Maintain Distance</h3>
+                        <p class="protect__desc">Put 6 feet of distance between yourself and people who don’t live in your household.</p>
+                    </div>
+                    <div class="protect__wrapper">
+                        <img src="./images/protect-4.png" alt="Protect yourself" class="protect__img">
+                        <h3 class="protect__tittle">Don't touch face</h3>
+                        <p class="protect__desc">To help prevent infection,
+                            keep your hands away from your
+                            face, eyes, nose, and mouth.</p>
+                    </div>
+                    <div class="protect__wrapper">
+                        <img src="./images/stay_home.jpg" alt="Protect yourself" class="protect__img">
+                        <h3 class="protect__tittle">Stay at home</h3>
+                        <p class="protect__desc">Stay at Home is less strict than quarantine because the risk of exposure to COVID-19 is deemed to be not as high as for people who are identified as contacts of a confirmed case or from a COVID affected area.</p>
+                    </div>
+                    <div class="protect__wrapper">
+                        <img src="./images/protect-6.jpg" alt="Protect yourself" class="protect__img">
+                        <h3 class="protect__tittle">Wear A Face Mask</h3>
+                        <p class="protect__desc">Vaccinating yourself also helps protect those around you, especially those at high risk of severe illness from COVID-19.</p>
+                    </div>
+                </div>
+        </section>
+    <!-- Protect Section end -->
+
+    <!-- Hand wash section starts -->
+        <section class="handwash" id="handwash">
+            <div class="block block--center">
+                <span class="block__caption line-left line-right">Protection</span>
+                <h1 class="block__heading">how to <span>wash your hand</span> properly</h1>
+            </div>
+            <div class="handwash__container">
+                <div class="handwash__step">
+                    <span class="handwash__num">1</span>
+                    <img src="./images/hadnwash-1.png" alt="handwash" class="handwash__img">
+                    <h3 class="handwash__desc">Apply Soap on Hand</h3>
+                </div>
+                <div class="handwash__step">
+                    <span class="handwash__num">2</span>
+                    <img src="./images/hadnwash-2.png" alt="handwash" class="handwash__img">
+                    <h3 class="handwash__desc">Palm to Palm</h3>
+                </div>
+                <div class="handwash__step">
+                    <span class="handwash__num">3</span>
+                    <img src="./images/hadnwash-3.png" alt="handwash" class="handwash__img">
+                    <h3 class="handwash__desc">Between Fingers</h3>
+                </div>
+                <div class="handwash__step">
+                    <span class="handwash__num">4</span>
+                    <img src="./images/hadnwash-4.png" alt="handwash" class="handwash__img">
+                    <h3 class="handwash__desc">Back of the Hands</h3>
+                </div>
+                <div class="handwash__step">
+                    <span class="handwash__num">5</span>
+                    <img src="./images/hadnwash-5.png" alt="handwash" class="handwash__img">
+                    <h3 class="handwash__desc">Clean with water</h3>
+                </div>
+                <div class="handwash__step">
+                    <span class="handwash__num">6</span>
+                    <img src="./images/hadnwash-6.png" alt="handwash" class="handwash__img">
+                    <h3 class="handwash__desc">Use Towel to Dry</h3>
+                </div>
+            </div>
+        </section>
+    <!-- Hand wash section ends -->
+
+    <!-- Doctor section starts -->
+        <section class="doctor" id="doctor">
+            <div class="block block--center">
+                <span class="block__caption line-left line-right">Expert</span>
+                <h1 class="block__heading">consult to <span>our doctor</span></h1> 
+            </div>
+            <div class="doctor__container">
+                <div class="doctor__person">
+                    <img class="doctor__img" src="./images/doc1.png" alt="doctor">
+                    <h3 class="doctor__name">Dr. Smith Rose</h3>
+                    <span class="doctor__desc">senior expert</span>
+                    <div class="doctor__share">
+                        <a href="#" class="fab fa-whatsapp doctor__share--icon"></a>
+                        <a href="#" class="fab fa-facebook-f doctor__share--icon"></a>
+                        <a href="#" class="fab fa-twitter doctor__share--icon"></a>
+                        <a href="#" class="fab fa-instagram doctor__share--icon"></a>
+                    </div>
+                </div>
+                <div class="doctor__person">
+                    <img class="doctor__img" src="./images/doc2.png" alt="doctor">
+                    <h3 class="doctor__name">Dr. Jenifer Lalana</h3>
+                    <span class="doctor__desc">senior expert</span>
+                    <div class="doctor__share">
+                        <a href="#" class="fab fa-whatsapp doctor__share--icon"></a>
+                        <a href="#" class="fab fa-facebook-f doctor__share--icon"></a>
+                        <a href="#" class="fab fa-twitter doctor__share--icon"></a>
+                        <a href="#" class="fab fa-instagram doctor__share--icon"></a>
+                    </div>
+                </div>
+                <div class="doctor__person">
+                    <img class="doctor__img" src="./images/doc3.png" alt="doctor">
+                    <h3 class="doctor__name">Dr. Jenny Smith</h3>
+                    <span class="doctor__desc">senior expert</span>
+                    <div class="doctor__share">
+                        <a href="#" class="fab fa-whatsapp doctor__share--icon"></a>
+                        <a href="#" class="fab fa-facebook-f doctor__share--icon"></a>
+                        <a href="#" class="fab fa-twitter doctor__share--icon"></a>
+                        <a href="#" class="fab fa-instagram doctor__share--icon"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Doctor section ends -->
+
+    <!-- Footer -->
+        <div class="footer">
+            <div class="footer__container">
+                <div class="footer__wrapper">
+                    <h3>About Us</h3>
+                    <p>lorem ipsum dolor sit amet, consectet</p>
+                </div>
+                <div class="footer__wrapper">
+                    <h3>Locations</h3>
+                    <a href="#">VietNam</a>
+                    <a href="#">USA</a>
+                    <a href="#">Russia</a>
+                    <a href="#">ThaiLand</a>
+                </div>
+                <div class="footer__wrapper">
+                    <h3>Quick links</h3>
+                    <a href="#">Home</a>
+                    <a href="#">Protect</a>
+                    <a href="#">Symptoms</a>
+                    <a href="#">Handwash</a>
+                </div>
+                <div class="footer__wrapper">
+                    <h3>Contact info</h3>
+                    <p><i class="fas fa-phone"></i> VN-961.355.137</p>
+                    <p><i class="fas fa-envelope"></i> trananhduc23102000@gmail.com</p>
+                    <p><i class="fas fa-map-market-alt"></i> TP.HCM, VietNam</p>
+                    <div class="share">
+                        <a href="#" class="fab fa-youtube"></a>
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <h1 class="footer__credit">created by <a href="#">AdStar</a> &copy; copyright @ 2021</h1>
+        </div>
+    <!-- Footer -->
+
+
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/animation-gsap.js"></script>
+</body>
+</html>
