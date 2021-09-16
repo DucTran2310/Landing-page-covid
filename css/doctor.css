@@ -1,0 +1,66 @@
+.doctor {
+    background: url(../images/background-img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.doctor__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.doctor__person {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1.5rem;
+    text-align: center;
+    background: #fff;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    width: 33rem;
+}
+
+.doctor__img {
+    margin: 1rem;
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    background: #3a6084;
+}
+
+.doctor__name {
+    font-size: 2rem;
+    color: #3a6084;
+}
+
+.doctor__desc {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.doctor__share {
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.doctor__share--icon {
+    border-radius: 50%;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    margin: 0.4rem;
+    background: #eee;
+    color: #3a6084;
+}
+
+.doctor__share--icon:hover {
+    background: #3a6084;
+    color: #fff;
+    transform: rotate(360deg);
+}
