@@ -1,0 +1,65 @@
+.symptoms {
+    background: url(../images/background-img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.symptoms__column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.symptoms__img--main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.symptoms__img--main img {
+    width: 43vh;
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.block__desc {
+    font-size: 1.4rem;
+    line-height: 1.7;
+    color: #898c8f;
+}
+
+.symptoms__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.symptom__virus--wrapper {
+    position: absolute;
+    top: 10px;
+    left: 30.5%;
+}
+
+.symptoms__virus {
+    width: 400px;
+    animation: infinite-poppin 2s ease-in-out infinite alternate;
+}
+
+.symptoms__box {
+    margin: 1rem;
+    text-align: center;
+}
+
+.symptoms__img {
+    width: 24rem;
+    padding: 1rem;
+}
+
+.symptoms__desc {
+    font-size: 2rem;
+    color: #4f5865;
+}
