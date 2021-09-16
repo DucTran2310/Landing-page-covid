@@ -1,0 +1,103 @@
+/* CSS header */
+header {
+    width: 100%;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 2.5rem 7%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+header.sticky {
+    padding: 2.5rem 7%;
+    background-color: rgba(0, 0, 0, 0.84);
+}
+
+/* Sticky navbar */
+header.sticky .navbar__item {
+    color: var(--white);
+}
+
+header .logo {
+    font-size: 2.5rem;
+    color: #666;
+}
+
+.logo-icon {
+    color: var(--red);
+}
+
+header .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+header .navbar ul li {
+    margin-left: 2.5rem;
+}
+
+.navbar__item {
+    color: #999;
+    font-size: 2rem;
+}
+
+.navbar__item.active,
+.navbar__item:hover {
+    color: var(--red);
+    border-bottom: 0.2rem solid var(--red);
+    padding: 0.7rem 0;
+    transition: all 0.35s ease;
+}
+
+#menu {
+    font-size: 3rem;
+    color: #999;
+    cursor: pointer;
+    display: none;
+}
+
+/* Section home*/
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home .image {
+    flex: 1 1 40rem;
+}
+
+.home .image img {
+    width: 100%;
+}
+
+.home .content {
+    flex: 1 1 40rem;
+}
+
+.content__title {
+    color: var(--red);
+    font-size: 2.5rem;
+}
+
+.content__slogan {
+    color: #666;
+    font-size: 5rem;
+}
+
+.content__des {
+    color: #999;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+/* Section end*/
