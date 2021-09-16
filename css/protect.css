@@ -1,0 +1,44 @@
+.protect h1 span {
+    color: var(--red);
+    text-transform: uppercase;
+}
+
+.protect__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.protect__wrapper {
+    min-height: 330px;
+    min-width: 371px;
+    flex: 1 1 30rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+    background: var(--white);
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.protect__wrapper:hover {
+    transform: translateY(-1rem) !important;
+}
+
+.protect__img {
+    width: 170px;
+    height: 170px;
+}
+
+.protect__tittle {
+    color: #666;
+    font-size: 2rem;
+}
+
+.protect__desc {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
