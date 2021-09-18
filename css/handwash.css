@@ -13,7 +13,11 @@
     padding: 2rem 3.5rem;
     text-align: center;
     position: relative;
-    min-width: 371px;
+    min-width: 347px;
+}
+
+.handwash__step:hover {
+    transform: translateY(-1rem) !important;
 }
 
 .handwash__img {

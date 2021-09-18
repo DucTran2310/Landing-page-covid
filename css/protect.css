@@ -1,3 +1,7 @@
+.protect {
+    margin-bottom: 120px;
+}
+
 .protect h1 span {
     color: var(--red);
     text-transform: uppercase;
@@ -13,7 +17,7 @@
 
 .protect__wrapper {
     min-height: 330px;
-    min-width: 371px;
+    min-width: 347px;
     flex: 1 1 30rem;
     border-radius: 1rem;
     padding: 1rem;

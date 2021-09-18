@@ -3,6 +3,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin-bottom: 120px;
 }
 
 .symptoms__column {
@@ -55,7 +56,7 @@
 }
 
 .symptoms__img {
-    width: 24rem;
+    width: 21rem;
     padding: 1rem;
 }
 
