@@ -36,7 +36,7 @@ window.addEventListener("scroll", () => {
 
 // Icrementing-counter
 const counters = document.querySelectorAll('.case__qnt');
-const speed = 2000; // The lower the slower
+const speed = 1000; // The lower the slower
 
 counters.forEach(counter => {
 	const updateCount = () => {
@@ -73,7 +73,9 @@ window.addEventListener("scroll", ()=> {
     } else {
         scrollTop.classList.remove("active");
     }
-})
+});
+
+
 
 
 

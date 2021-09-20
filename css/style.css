@@ -9,12 +9,12 @@ header {
     top: 0;
     left: 0;
     z-index: 10;
-    padding: 2.5rem 7%;
+    padding: 1.5rem 7%;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 header.sticky {
-    padding: 2.5rem 7%;
+    padding: 1.5rem 7%;
     background-color: rgba(0, 0, 0, 0.84);
 }
 
